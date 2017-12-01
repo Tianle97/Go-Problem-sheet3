@@ -1,6 +1,9 @@
 # Go-Problem-sheet3
 Regular Expressions in Go
 
+problem-sheet3 will provide information about how t use random regexp in golang.
+
+
 # *1. Random response* #
 
 * Write a function called ElizaResponse in Go that takes a single string as input and returns a single string as output. The function should randomly return one of the following three strings.
