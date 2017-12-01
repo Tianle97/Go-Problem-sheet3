@@ -75,9 +75,9 @@ func ElizaResponse(input string) string{
 
 		response2 :=  regexp.MustCompile(`[Ii] don't(.*)`)
 		if matched := response2.MatchString(input) ; matched{
-			captured1 := Reflect(input)
-			output1  := answers2[rand.Intn(len(answers2))]
-			return fmt.Sprintf(output1, captured1)
+			user := Reflect(input)
+			reply := answers2[rand.Intn(len(answers2))]
+			return fmt.Sprintf(user, reply)
 		}
          
 
